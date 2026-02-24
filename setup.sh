@@ -15,9 +15,6 @@ echo "Instalando dependencias..."
 pip install --upgrade pip
 pip install -r requirements.txt
 
-# Entrenar el modelo
-echo "Entrenando modelo de Iris..."
-python train_model.py
 
 echo "✅ Configuración completada!"
 echo ""
